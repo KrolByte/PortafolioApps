@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Aplicaciones de nuestro curso.")
 
 with st.sidebar:
   st.subheader("Potafolio: Mis apps.")
