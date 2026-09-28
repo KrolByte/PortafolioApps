@@ -3,85 +3,85 @@ from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Potafolio: Mis apps.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "En este portafolio encontrarás todas las apps que hemos desarrollado durante el curso, "
+    "aquí abordamos diferentes temas y en base a ellos desarrollamos una app para entender "
+    "su funcionamiento, de igual manera respondiendo a frutas sobre las mismas."
   )
   st.write(parrafo)
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+st.subheader("Aquí encontramos todos los contenidos tratado y trabajados durante el curso.")
+st.write(f"Conoce más aquí: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
+ st.subheader("Detector de anomalías")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write("En esta app vemos Lógica + Big-O + NumPy, mediante medidores de humedad y temperatura, combinando ambas preposiciones") 
+ url = "https://logicabig-o-pbu88wfn75nojzhtelapvt.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("Predictor de lluvia")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En esta app vemos regresión logística interactiva, combinando nuevamente las preposiciones de humedad y temperatura junto con la calidad del aire") 
+ url = "https://predictorlluvia-k4r0l.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Estación Marco CORNARE")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En esta app tenemos el resumen de la estación 5 con respecto a diferentes datos de una problematica con el nivel de ríos y quebradas") 
+ url = "https://r2tscwbzp2jqldpkdrydmk.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Predictor de sensación térmica")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("En esta app tenemos datos reales de temperatura y humedad tomados por un sensor IoT, para entrenar un modelo de regresión lineal que predice la sensación térmica") 
+ url = "https://sensaciontermica-k4r0l.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("Series de tiempo")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("En esta app medimos la tendencia, estacionalidad y ruido de los datos mediante la media móvil, suavizado exponencial y modelo ARIMA") 
+ url = "https://serietiempo-k4r0l.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Predictor de la calidad del aire")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("En esta app medimos la calidad del aire mediante archivos con registros con datos anteriores, nos sirve para predecir el clima") 
+ url = "https://prediccionaire-k4r0l.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Descenso del gradiente interactivo")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En esta app exploramos en vivo cómo la tasa de aprendizaje y el punto inicial afectan la convergencia del descenso de gradiente") 
+ url = "https://gradiente-g6jnvjyglj6jgjuy8j5t4y.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("KNN con suelos de AGROSAVIA")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("Esta app es como cuando eliges un restaurante preguntando a amigos con gustos parecidos, KNN clasifica un suelo nuevo según sus k vecinos más cercanos, que votan") 
+ url = "https://knnsuelos-k4r0l.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("¿Qué fruta es más parecida?")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En esta app de acuerdo a variables de peso, diámetro y dulzor, predecimos a qué otra fruta es similar la actual por medio de vectores y distancias") 
+ url = "https://7y4nmxfxjcrj56kyjdeawq.streamlit.app/"
+ st.write(f"Mira la app: [Enlace]({url})")
 
 
