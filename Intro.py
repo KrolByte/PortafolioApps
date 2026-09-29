@@ -3,16 +3,16 @@ from PIL import Image
 st.title("Aplicaciones de Karol Reyes.")
 
 with st.sidebar:
-  st.subheader("Potafolio: Mis apps.")
+  st.subheader("Portafolio: Mis apps.")
   parrafo = (
     "En este portafolio encontrarás todas las apps que hemos desarrollado durante el curso, "
     "aquí abordamos diferentes temas y en base a ellos desarrollamos una app para entender "
-    "su funcionamiento, de igual manera respondiendo a frutas sobre las mismas."
+    "su funcionamiento, de igual manera respondiendo a preguntas sobre las mismas."
   )
   st.write(parrafo)
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("Aquí encontramos todos los contenidos tratado y trabajados durante el curso.")
+st.subheader("Aquí encontrarás todos los contenidos tratados y trabajados durante el curso.")
 st.write(f"Conoce más aquí: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
